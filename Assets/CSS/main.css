@@ -285,4 +285,9 @@ footer{
     justify-content: space-between;
     padding: 0.5rem 5rem;
 }
+
+.footer1{
+    display: flex;
+    gap:0.5rem;
+}
 /* End of Footer Section */
