@@ -116,6 +116,7 @@ body {
 .content {
     width: 66%;
     height: 350px;
+    margin-top: 0.1rem;
 }
 
 .content p,

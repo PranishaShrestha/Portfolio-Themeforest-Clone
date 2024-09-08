@@ -1,0 +1,127 @@
+/* Contact page */
+.contact-details {
+    background-color: #000;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+.cform {
+    background-color: #121214;
+    padding: 2rem;
+    margin: 1rem 5rem;
+    border-radius: 1rem;
+    text-align: center;
+    border-style: none;
+}
+
+.contactdetail {
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+}
+
+.contactinfo {
+    display: flex;
+    border: 2px solid rgb(56, 45, 45);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+}
+
+.contactinfo svg {
+    margin-bottom: 1rem;
+}
+
+.contactinfo p,
+.cform p {
+    color: #9c9892;
+}
+
+.content2 {
+    padding-top: 1rem;
+
+}
+
+.form-container {
+    background-color: #121214;
+    padding: 40px;
+    border-radius: 10px;
+    width: 800px;
+    border: 2px solid rgb(56, 45, 45);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #b5b5b5;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #f05440;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn:hover {
+    background-color: #d84331;
+}
+
+.submit-btn svg{
+margin-left: 1rem;
+}
+/* End of contact page */
+
+/* About Page */
+.profile,
+.content {
+    height: 500px;
+}
+
+.content {
+    padding: 3rem;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+/* End of About Page */
