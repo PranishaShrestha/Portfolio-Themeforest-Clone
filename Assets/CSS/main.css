@@ -51,6 +51,8 @@ body {
 
 .hire-me .btn:hover {
     background-color: #eb5d3a;
+    height: 4rem;
+    transition: all 1s;
 }
 
 /* End of Header/Navigation Section */
@@ -290,5 +292,10 @@ footer{
 .footer1{
     display: flex;
     gap:0.5rem;
+}
+
+.bentos{
+    color: #eb5227 ;
+    text-decoration: none;
 }
 /* End of Footer Section */
