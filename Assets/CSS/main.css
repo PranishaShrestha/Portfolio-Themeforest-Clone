@@ -242,6 +242,12 @@ marquee img {
     padding: 1rem;
 }
 
+.description:hover{
+    height: 400px;
+    width: 410px;
+    transition: all 0.6s;
+}
+
 .project-desc {
     text-align: center;
     text-decoration: none;
